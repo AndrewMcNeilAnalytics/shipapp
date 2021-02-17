@@ -1,0 +1,33 @@
+Package: shipapp
+Title: Ship Demo App
+Version: 0.0.0.9000
+Authors@R: person('Andrew', 'McNeil', email = 'andrew.richard.mcneil@gmail.com', role = c('cre', 'aut'))
+Description: This is a ship demo app.
+License: What license is it under?
+Imports: 
+    config,
+    golem,
+    shiny,
+    processx,
+    pkgload,
+    checkmate,
+    shiny.semantic,
+    dplyr,
+    purrr,
+    tibble,
+    lubridate,
+    geodist,
+    waiter,
+    tidyr,
+    stringr,
+    fasttime,
+    data.table,
+    assertr,
+    leaflet
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+URL: https://github.com/AndrewMcNeilAnalytics/shipapp
+BugReports: https://github.com/AndrewMcNeilAnalytics/shipapp/issues
+Suggests: 
+    testthat

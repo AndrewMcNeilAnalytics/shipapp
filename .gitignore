@@ -37,3 +37,12 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+# dev directories
+dev
+
+#rsconnect files
+rsconnect
+
+#data files
+inst/app/data/ships.csv
